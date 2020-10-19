@@ -1,25 +1,13 @@
-# Objektni model Škola
+# Objektni model
 
-Gradimo objektni model koji će pomoći školskoj administratorici da vodi evidenciju o učenicima, razredima i nastavnicima. 
+Projekt mora imati:
+3 odvojene Python datoteke/modula koje se nalaze unutar paketa (mapa koja ima praznu _init_.py datoteku) 
+svaki modul mora imati barem jednu osnovnu klasu RODITELJ i jednu izvedenu klasu DIJETE 
+u paketu/mapi mora biti i test.py datoteka koja će importirati sva tri modula i pokretati demonstracijski kod 
+demonstracijski kod u test.py datoteci mora imati funkcije koje: 
+kreiraju objekte učitavanjem s tipkovnice (3 boda) 
+ispisuju objekte na vizualno prihvatljiv način (obavezna _repr_ i _str_ funkcija u klasi) (3 boda) 
+pretražuju objekte po nekim standardnim parametrima (3boda) 
+sve to morate opisati kroz KORISNIČKU dokumentaciju s Python kodom 
+sučelje ne mora biti grafičko, dovoljno je tekstualno
 
-Sustav  treba moći:
-
-a) učitavati podatke o učenicima, razredima i nastavnicima s tipkovnice (3 boda)
-b) ispisivati popis svih učenika, razreda i nastavnika na ekran, sortirane po određenom svojstvu (3 boda)
-c) pretražiti po OIB-u učenike (1 bod)
-d) pretražiti po prezimenu i imenu nastavnike (1 bod)
-e) pretražiti po nazivu razrede (1 bod)
-f) ispisivati sve učenike iz istog razreda te ime i prezime razrednika (2 boda)
-g) ispisivati sve ispite državne mature po rainama i s brojem učenika koji su izabrali taj ispit (2 boda)
-
-
-Ljestvica procjene:
-ukupno: 13 bodova
-
-0 - 5  - nedovoljan
-6, 7   - dovoljan
-8, 9  - dobar
-10, 11 - vrlo dobar
-12, 13 - odličan
-
-Datum završetka projekta: 6.12.2019
