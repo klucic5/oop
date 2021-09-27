@@ -6,7 +6,7 @@ from klase.razredi import Razred, Grupa
 def test_ucenici():
     '''funkcija kreira listu objekata klase Ucenik, upisuje ih s tipkovnice, ispisuje podatke sortirane po prezimenu pa imenu'''
     uc1 = Ucenik('Ana','Anić','4236552','4.d','2019./2020.')
-    uc2=Ucenik('Ivo','Ivić','523644','4.d','2019./2020.')
+    uc2=Ucenik('Ivo','Ivić','523644','3.d','2019./2020.')
     uc3=Ucenik('Iva','Ivić','111644','4.d','2019./2020.')
     #matura={'mat':'A','hrv':'B', 'eng':'A','inf':'0'}
     #mat=Maturant('Leo','Leić','4236112','4.d','2019./2020.',matura)
@@ -15,7 +15,8 @@ def test_ucenici():
     L.append(uc2)
     L.append(uc3)
     for i in L:
-        print(i)
+        if i.r=='4.d':
+            print(i)
 
 def test_nastavnici():
     '''funkcija koja kreira listu objekata nastavnika,  upisuje ih s tipkovnice, ispisuje podatke sortirane po prezimenu pa imenu'''
